@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `wedding`
+-- Database: `nikahsaid`
 --
 
 -- --------------------------------------------------------
@@ -31,17 +31,16 @@ CREATE TABLE `wish` (
   `id` int(100) NOT NULL,
   `nama` varchar(50) NOT NULL,
   `doa` varchar(50) NOT NULL,
-  `hadir` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `wish`
 --
 
-INSERT INTO `wish` (`id`, `nama`, `doa`, `hadir`) VALUES
-(1, 'test', 'password', 'hadir'),
-(2, 's', 'sa', ''),
-(3, 's', 'amin', '');
+INSERT INTO `wish` (`id`, `nama`, `doa`,) VALUES
+(1, 'test', 'password'),
+(2, 's', 'sa'),
+(3, 's', 'amin');
 
 --
 -- Indexes for dumped tables
